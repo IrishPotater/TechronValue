@@ -1,0 +1,9 @@
+name: TechronValue
+version: 1.0
+main: io.github.hiztree.techronvalue.TechronValue
+description: A value plugin for Techron Networks.
+authors: [Hiztree, IrishPotater]
+commands:
+  value:
+    description: Calculate the value of an item.
+    usage: /value <item> <amount>
