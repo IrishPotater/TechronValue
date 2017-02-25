@@ -5,6 +5,21 @@ import org.bukkit.inventory.ItemStack;
 public enum EmcValues {
 
     THING("Thing", 1, 1, 1);
+    Gravel("Gravel", 1, 0, 1);
+    Grass("Grass", 2, 0, 1);
+    Dirt("Dirt", 3, 0, 1);
+    Cobblestone("Cobblestone", 4, 0, 1);
+    WoodenPlanks("Wooden Planks", 5, 0, 8);
+    WoodenPlanks("Wooden Planks", 5, 1, 8);
+    WoodenPlanks("Wooden Planks", 5, 2, 8);
+    WoodenPlanks("Wooden Planks", 5, 3, 8);
+    Sapling("Sapling", 6, 0, 32);
+    Sapling("Sapling", 6, 1, 32);
+    Sapling("Sapling", 6, 2, 32);
+    Sapling("Sapling", 6, 3, 32);
+    Sand("Sand", 12, 0, 1);
+    Gravel("Gravel", 13, 0, 4);
+
 
     private final String name;
     private final int itemID;
